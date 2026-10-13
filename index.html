@@ -94,5 +94,27 @@
   <dialog id="project-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Close project case study">×</button><div class="dialog-header"><span class="mono orange" id="dialog-label"></span><h2 id="dialog-title"></h2><p id="dialog-hook"></p></div><div class="dialog-body" id="dialog-body"></div><div class="dialog-footer"><a class="button primary" href="index.html" id="dialog-contact">Talk about a similar project ↗</a></div></dialog>
   <noscript><style>.small-project[hidden]{display:block}.work-toolbar,.work-footer,.skill-tabs{display:none}.skill-panel{grid-column:1/-1}</style><p class="container">Project filtering and expanded case studies need JavaScript. The work summaries, experience, and contact links remain available.</p></noscript>
 <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a49c8ccd9bf32b1a',t:'MTc5MTg3NTY5Mw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/13.0.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/13.0.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDZYDua2ybbkPpV8vsiHadBZnNLSv_scHc",
+    authDomain: "johan-portfolio.firebaseapp.com",
+    projectId: "johan-portfolio",
+    storageBucket: "johan-portfolio.firebasestorage.app",
+    messagingSenderId: "21487507238",
+    appId: "1:21487507238:web:1028a644164307b30953e7",
+    measurementId: "G-7LX1KXPNP7"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 </body>
